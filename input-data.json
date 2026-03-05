@@ -1,0 +1,97 @@
+﻿{
+  "technicians": [
+    {
+      "techId": "T1",
+      "availabilityBlocks": [
+        {
+          "startMinute": 0,
+          "endMinute": 240
+        }
+      ]
+    },
+    {
+      "techId": "T2",
+      "availabilityBlocks": [
+        {
+          "startMinute": 60,
+          "endMinute": 540
+        }
+      ]
+    },
+    {
+      "techId": "T3",
+      "availabilityBlocks": [
+        {
+          "startMinute": 300,
+          "endMinute": 600
+        }
+      ]
+    }
+  ],
+  "studies": [
+    {
+      "studyId": "S-1001",
+      "customerId": "Clinic-A",
+      "uploadedAtMinute": -90,
+      "slaMinutes": 240,
+      "priorityFlag": false,
+      "requiresDoubleScoring": true
+    },
+    {
+      "studyId": "S-1002",
+      "customerId": "Clinic-B",
+      "uploadedAtMinute": -60,
+      "slaMinutes": 480,
+      "priorityFlag": true,
+      "requiresDoubleScoring": false
+    },
+    {
+      "studyId": "S-1003",
+      "customerId": "Clinic-C",
+      "uploadedAtMinute": -720,
+      "slaMinutes": 720,
+      "priorityFlag": false,
+      "requiresDoubleScoring": false
+    },
+    {
+      "studyId": "S-1004",
+      "customerId": "Clinic-A",
+      "uploadedAtMinute": -15,
+      "slaMinutes": null,
+      "priorityFlag": false,
+      "requiresDoubleScoring": true
+    },
+    {
+      "studyId": "S-1005",
+      "customerId": "Clinic-D",
+      "uploadedAtMinute": -120,
+      "slaMinutes": 360,
+      "priorityFlag": true,
+      "requiresDoubleScoring": true
+    },
+    {
+      "studyId": "S-1006",
+      "customerId": "Clinic-E",
+      "uploadedAtMinute": -150,
+      "slaMinutes": null,
+      "priorityFlag": false,
+      "requiresDoubleScoring": false
+    },
+    {
+      "studyId": "S-1007",
+      "customerId": "Clinic-B",
+      "uploadedAtMinute": -30,
+      "slaMinutes": 300,
+      "priorityFlag": true,
+      "requiresDoubleScoring": false
+    },
+    {
+      "studyId": "S-1008",
+      "customerId": "Clinic-F",
+      "uploadedAtMinute": -10,
+      "slaMinutes": 180,
+      "priorityFlag": false,
+      "requiresDoubleScoring": true
+    }
+  ]
+}
